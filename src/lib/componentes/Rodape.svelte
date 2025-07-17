@@ -2,7 +2,7 @@
     const Ano = new Date().getFullYear();
 </script>
 
-<Footer>
+<div>
     <p> &copy; 
         {Ano}; Biblioteca. Todos os direitos reservados</p>
     <div class = "links">
@@ -10,10 +10,10 @@
         <a href="https://www.skoob.com.br/">Nosso skoob</a>
         <a href="https://www.facebook.com/?locale=pt_BR">Nosso facebook</a>
     </div>
-</Footer>
+</div>
 
 <style>
-    Footer{
+    div{
         background-color: black;
         color: white;
         padding: 1rem;
@@ -33,3 +33,4 @@
         text-decoration: underline;
     }
 </style>
+
