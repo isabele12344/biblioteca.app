@@ -23,9 +23,19 @@
         color: #0c0c0c;
         margin: 0 10px;
         text-decoration: none;
+        display: flex; 
+        gap: 20px;
     }
 
     .links a:hover {
         text-decoration: underline;
     }
+    .linksH ul {
+        list-style: none;   
+        padding: 0;
+        margin: 0;
+        display: flex;     
+        justify-content: center; 
+        gap: 20px; 
+    }        
 </style>

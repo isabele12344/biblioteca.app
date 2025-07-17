@@ -14,6 +14,7 @@
         </ul>
     </nav> 
 </div>
+</div>
 <style>
     div{
         background-color: black;
@@ -34,5 +35,13 @@
     .links a:hover {
         text-decoration: underline;
     }
+    .linksF ul {
+        list-style: none;   
+        padding: 0;
+        margin: 0;
+        display: flex;     
+        justify-content: center; 
+        gap: 20px; 
+    }        
 </style>
 
