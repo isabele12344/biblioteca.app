@@ -4,7 +4,7 @@
 
 <Footer>
     <p> &copy; 
-        {Ano} Biblioteca. Todos os direitos reservados</p>
+        {Ano}; Biblioteca. Todos os direitos reservados</p>
     <div class = "links">
         <a href="https://www.instagram.com/">Nosso instagram</a>
         <a href="https://www.skoob.com.br/">Nosso skoob</a>
