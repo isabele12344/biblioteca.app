@@ -3,6 +3,7 @@
 </script>
 
 <div>
+<div>
     <p> &copy; 
         {Ano}; Biblioteca. Todos os direitos reservados</p>
     <nav class="linksF">
@@ -34,3 +35,4 @@
         text-decoration: underline;
     }
 </style>
+
