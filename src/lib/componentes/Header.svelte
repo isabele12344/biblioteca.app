@@ -1,12 +1,17 @@
 <div>
-    <h1>Infoteca</h1>
-    <nav class="linksH">
+    <h1>Biblioteca online</h1>
+    <div class="logo">
+    <img src="https://cdn-icons-png.flaticon.com/512/23/23358.png" alt="logoBiblioteca" width="75px" height="75px">
+    </div>
+    <div>
+        <nav class="linksH">
         <ul>
-            <li><a href="#livros">livros</a></li>
-            <li><a href="#autores">autores</a></li>
-            <li><a href="#categorias">categorias</a></li>
+            <li><a href="#livros">Livros</a></li>
+            <li><a href="#autores">Autores</a></li>
+            <li><a href="#categorias">Categorias</a></li>
         </ul>
     </nav>
+    </div>
 </div>
 <style>
     div{
@@ -14,9 +19,6 @@
         color: white;
         padding: 20px 0;
         text-align: center;
-    }
-    .linksH {
-        margin-top: 0.5rem;
     }
 
     .links a {
@@ -37,5 +39,15 @@
         display: flex;     
         justify-content: center; 
         gap: 20px; 
-    }        
+        margin-top: 0.5rem;
+    }  
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    .logo img{
+        text-align: center;
+    }
 </style>
