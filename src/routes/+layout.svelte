@@ -1,11 +1,9 @@
 <script lang="ts">
-	import Header from '$lib/componentes/Header.svelte';
-	import Footer from '$lib/componentes/Footer.svelte';
-	import '../app.css';
-	
-
-	let { children } = $props();
+    import Header from '$lib/componentes/Header.svelte';
+    import Menu from '$lib/componentes/Menu.svelte';
+    import Footer from '$lib/componentes/Footer.svelte';
 </script>
+
+<Header />
 <slot />
-<Header/>
-<Footer/>
+<Footer />
