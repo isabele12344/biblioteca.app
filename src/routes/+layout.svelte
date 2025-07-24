@@ -6,4 +6,5 @@
 
 <Header />
 <slot />
+<Menu />
 <Footer />
