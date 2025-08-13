@@ -1,5 +1,6 @@
 <script lang="br">
 	import Destaques from "$lib/componentes/Destaques.svelte";
+    import { goto } from '$app/navigation';
 
     const livros = [
         { titulo: "A Menina que Roubava Livros", autor: "Markus Zusak" },
@@ -9,8 +10,10 @@
 </script>
 
 <Destaques/>
+<nav class="botão">
+    <button on:click={() => goto('/')}>Livros mais vendidos</button>
+</nav>
 
-<h1>Livros Mais Vendidos</h1>
 <ul>
     {#each livros as livro}
         <li>
@@ -18,5 +21,15 @@
         </li>
     {/each}
 </ul>
+<button on:click={() => goto('/mais-vendidos')}>Mais vendidos</button>
+<style>
+    .botão{
+        position: relative;
+        top: -25px;
+        text-align: center;
+        margin: 1rem 0;
+    }
+</style>
+
 
 
